@@ -40,3 +40,9 @@ bom/
 out/
 
 # End of https://www.gitignore.io/api/kicad
+
+**.mxproject
+**.jdebug
+**.jdebug.user
+**.ioc
+build/
