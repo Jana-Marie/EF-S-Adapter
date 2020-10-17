@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name lensmount-v1-rescue)(type Legacy)(uri ${KIPRJMOD}/lensmount-v1-rescue.lib)(options "")(descr ""))
+)
