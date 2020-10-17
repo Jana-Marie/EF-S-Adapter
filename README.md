@@ -1,6 +1,6 @@
 # EF-S-Adapter
 
-This repo contains an experimental USB to EF/EF-S adapter, the protocol is reverse-engineered and tries to enable full lens controll and data readout. **Please use at your own risk, the hard- and software are experimental and can destroy your lens!**
+This repo contains an experimental USB to EF/EF-S adapter, the protocol is reverse-engineered and tries to enable full lens controll and data readout. **Please use at your own risk, the hard- and software are experimental and can damage your lens!**
 
 
 ![](/images/1.jpg)
