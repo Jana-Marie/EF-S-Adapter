@@ -12,6 +12,18 @@ This repo contains an experimental USB to EF/EF-S adapter, the protocol is rever
 https://twitter.com/JanHenrikH/status/1317520812761546753
 
 
+### Status
+
+##### v1
+ 
+  - Tested
+  - May shorts power rails on lens attachment
+  
+##### v1.1
+
+ - Not tested, ordered
+
+
 ### Todo
 
  - [ ] Make lens hotplugable (needs new hardware revision)
