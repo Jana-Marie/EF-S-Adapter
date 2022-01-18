@@ -9,7 +9,7 @@ This repo contains an experimental USB to EF/EF-S adapter, the protocol is rever
 
 ### Demo
 
-https://twitter.com/JanHenrikH/status/1317520812761546753
+https://twitter.com/_Jana_Marie/status/1317520812761546753
 
 
 ### Status
