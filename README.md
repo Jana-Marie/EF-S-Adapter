@@ -26,6 +26,6 @@ https://twitter.com/_Jana_Marie/status/1317520812761546753
 
 ### Todo
 
- - [ ] Make lens hotplugable (needs new hardware revision)
+ - [x] Make lens hotplugable (needs new hardware revision)
  - [ ] Create helper functions (like set_aperture_to(aperture))
  - [ ] Documentation
