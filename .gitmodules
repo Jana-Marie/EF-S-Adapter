@@ -1,0 +1,3 @@
+[submodule "firmware/lensmount/Drivers/tinyusb"]
+	path = firmware/lensmount/Drivers/tinyusb
+	url = https://github.com/hathach/tinyusb

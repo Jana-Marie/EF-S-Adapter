@@ -1,0 +1,8 @@
+{
+    "cortex-debug.gdbPath": "/opt/homebrew/bin/arm-none-eabi-gdb",
+    "cortex-debug.stutilPath": "/opt/homebrew/bin/st-util",
+    "files.associations": {
+        "tusb.h": "c",
+        "tusb_common.h": "c"
+    }
+}

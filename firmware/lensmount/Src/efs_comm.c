@@ -1,5 +1,9 @@
 #include "efs_comm.h"
 
+void efs_wait();
+uint8_t reverse(uint8_t data);
+uint8_t efs_sr(uint8_t data);
+
 void efs_delay(uint32_t delay) {
   while(delay--){
     asm("NOP");

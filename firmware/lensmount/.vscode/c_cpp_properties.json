@@ -1,0 +1,81 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/nix/store/rym3ml4yd48pigpn40i0lqcyvbv8a04r-apple-framework-Metal-11.0.0/Library/Frameworks",
+                "/nix/store/h81ncanh6q26cd8gsc4wy8kvxr9gmali-apple-framework-CoreFoundation-11.0.0/Library/Frameworks",
+                "/nix/store/prncczzr4drsk5yx00xq83jhg71qjqa5-apple-framework-CoreGraphics-11.0.0/Library/Frameworks",
+                "/nix/store/mnqfsbpdrhksm3lzh0xk9kdgkv14afm9-apple-framework-IOKit-11.0.0/Library/Frameworks",
+                "/nix/store/qbgg1iwnwkqkadcid9gdzxr9snai28in-apple-framework-SystemConfiguration-11.0.0/Library/Frameworks",
+                "/nix/store/sq5w5zrphilmwihjzmgmvn9gkhz23n38-apple-framework-Security-11.0.0/Library/Frameworks",
+                "/nix/store/62jh6hmizqvpibfgjv1gp21israxwcbj-apple-framework-Foundation-11.0.0/Library/Frameworks",
+                "/nix/store/64rszzp3cglv9ykv8b59qmr7w73spvyb-apple-framework-ApplicationServices-11.0.0/Library/Frameworks",
+                "/nix/store/gnc73dzry6388kqxy7yhjh0q8fwxb8qi-apple-framework-ColorSync-11.0.0/Library/Frameworks",
+                "/nix/store/ws71pa2vrq1clzj7rghdis7qsv24xwm1-apple-framework-CoreServices-11.0.0/Library/Frameworks",
+                "/nix/store/51fkflyjjj37r9kmwkhjfl7pyf39g2wv-apple-framework-CFNetwork-11.0.0/Library/Frameworks",
+                "/nix/store/b0s6wv7pjjbp2hlmz0bfvz92z5psj38r-apple-framework-CoreAudio-11.0.0/Library/Frameworks",
+                "/nix/store/nd1val55bndbj1ynmsyq0dr55xlsjcrs-apple-framework-CoreAudioTypes-11.0.0/Library/Frameworks",
+                "/nix/store/rzr9nrzm6r7qb0vjci3jn9ww3j1b161q-apple-framework-DiskArbitration-11.0.0/Library/Frameworks",
+                "/nix/store/6vpcmvffwpjh6sjaghn2mcjvv11ph6ym-apple-framework-NetFS-11.0.0/Library/Frameworks",
+                "/nix/store/7knwvpj7rqsmxk029hgs9s11dhj2yrsx-apple-framework-ServiceManagement-11.0.0/Library/Frameworks",
+                "/nix/store/svs9ycdpw817n8axiwj51fkzfr47y18y-apple-framework-CoreText-11.0.0/Library/Frameworks",
+                "/nix/store/zh1vl4v0fv60yfr0i6xhzil5w5vis26b-apple-framework-ImageIO-11.0.0/Library/Frameworks",
+                "/nix/store/nqwwmxjryqzy115r3dm4jnq4z6jrj2lg-apple-framework-Combine-11.0.0/Library/Frameworks",
+                "/nix/store/gyqlxsi26q8m34ians21fpx4x1nm2agd-apple-framework-IOSurface-11.0.0/Library/Frameworks",
+                "/nix/store/hb5nb9i1i88y7kczgyp54yqsxism802f-apple-framework-AppKit-11.0.0/Library/Frameworks",
+                "/nix/store/ylc7chf1aa3rvc64yq7i7cs487jm78xd-apple-framework-AudioToolbox-11.0.0/Library/Frameworks",
+                "/nix/store/hwc5bk55mdviz51zc3p1svjf4n1akwz5-apple-private-framework-AudioToolboxCore-11.0.0/Library/Frameworks",
+                "/nix/store/668ivlpkw05fjrhj15cqxpy3clsfb542-apple-framework-Carbon-11.0.0/Library/Frameworks",
+                "/nix/store/y7nflgwgs26d4fb08hhvyj9y5cabiw4s-apple-framework-QuartzCore-11.0.0/Library/Frameworks",
+                "/nix/store/2y46jghkdwgi2yy4pqqd7slipd70sfap-apple-framework-CoreImage-11.0.0/Library/Frameworks",
+                "/nix/store/3g5d9ba0w3l2cbrp2arfx9ia36xndicl-apple-framework-CoreVideo-11.0.0/Library/Frameworks",
+                "/nix/store/8nj6g8gh2i5khnpwjnkqsfw81nravmj4-apple-framework-OpenGL-11.0.0/Library/Frameworks",
+                "/nix/store/psckxklfpmgh8qylk9vd5wrvkrb6ywv7-apple-framework-OpenCL-11.0.0/Library/Frameworks",
+                "/nix/store/5dbj0096n21w19y10livzbcgp2nc7ran-apple-framework-CoreMIDI-11.0.0/Library/Frameworks",
+                "/nix/store/n549dddzd6ssf9d6m98aglph2yl05qq3-apple-framework-AudioUnit-11.0.0/Library/Frameworks",
+                "/nix/store/j5zks81x9m8bi4564ic2n5ray3k5hk59-apple-framework-CloudKit-11.0.0/Library/Frameworks",
+                "/nix/store/y3bnfx68lgfgsmk9k6jn5mm8awvlyij0-apple-framework-CoreLocation-11.0.0/Library/Frameworks",
+                "/nix/store/wa59xy94sfxc1b5ihql2nzdfmrm01c3q-apple-framework-CoreData-11.0.0/Library/Frameworks",
+                "/nix/store/lr8llimc8nrwv1k54g76cgfag6whgir9-apple-private-framework-UIFoundation-11.0.0/Library/Frameworks",
+                "/nix/store/nill4ibcbl22cd1s4wh86121kwdlzj3h-apple-framework-Cocoa-11.0.0/Library/Frameworks",
+                "/nix/store/5wgl1kh8klm45pv4g55k5fw9ffdyz070-apple-framework-CoreFoundation-11.0.0/Library/Frameworks"
+            ],
+            "compilerPath": "/nix/store/s7lwib0lr80bqq0k43vd1ihr63yc6yql-clang-wrapper-16.0.6/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64"
+        },
+        {
+            "name": "embedded-arm",
+            "includePath": [
+                "/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/include",
+                "/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed",
+                "/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include",
+                "${workspaceFolder}/**"
+            ],
+            "browse": {
+                "path": [
+                    "/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/include",
+                    "/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/include-fixed",
+                    "/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [],
+            "compilerPath": "/opt/homebrew/bin/arm-none-eabi-gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-gcc-arm",
+            "compilerArgs": [
+                "-mcpu=cortex-m4 -mthumb -mfloat-abi=hard -lc -lm -lnosys"
+            ]
+        }
+    ],
+    "version": 4
+}
