@@ -61,7 +61,13 @@ Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c \
 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c \
 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pcd.c \
 Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pcd_ex.c \
-Src/system_stm32f0xx.c
+Src/system_stm32f0xx.c \
+Src/usb_descriptors.c
+
+
+include Drivers/tinyusb/src/tinyusb.mk
+C_SOURCES += $(addprefix Drivers/tinyusb/,$(TINYUSB_SRC_C))
+C_SOURCES += $(wildcard Drivers/tinyusb/src/portable/st/stm32_fsdev/*.c)
 
 # ASM sources
 ASM_SOURCES =  \
@@ -123,13 +129,15 @@ C_INCLUDES =  \
 -IDrivers/STM32F0xx_HAL_Driver/Inc/Legacy \
 -IDrivers/CMSIS/Device/ST/STM32F0xx/Include \
 -IDrivers/CMSIS/Include \
--IDrivers/CMSIS/Include
+-IDrivers/CMSIS/Include \
+-IDrivers/tinyusb/src \
+-DCFG_TUSB_MCU=OPT_MCU_STM32F0 \
 
 
 # compile gcc flags
 ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
 
-CFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+CFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections -fcommon
 
 ifeq ($(DEBUG), 1)
 CFLAGS += -g -gdwarf-2

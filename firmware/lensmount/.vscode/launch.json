@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "projectName": "test-f407vg",
+    "configurations": [
+        {
+            "name": "STlink launch",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/build/lensmount.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "stutil",
+            "device": "STM32F407VG",
+            "interface": "swd",
+            "runToEntryPoint": "main",
+            "preLaunchTask": "Build all", // configured in tasks.json
+            "svdFile": "", // Include svd to watch device peripherals
+            "swoConfig": {}, // currently (v1.7.0) not supported
+            "showDevDebugOutput": "raw"
+        },
+        {
+            "name": "STlink attach",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/build/lensmount.elf",
+            "request": "attach",
+            "type": "cortex-debug",
+            "servertype": "stutil",
+            "device": "STM32F407VG",
+            "interface": "swd",
+            "runToEntryPoint": "main",
+            "preLaunchTask": "Build all", // configured in tasks.json
+            "svdFile": "", // Include svd to watch device peripherals
+            "swoConfig": {} // currently (v1.7.0) not supported
+        },
+    ]
+}
